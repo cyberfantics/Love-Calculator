@@ -1,0 +1,134 @@
+body {
+    background: linear-gradient(to left, #07cf07, #21271b);
+}
+
+#calculator {
+    width: 600px;
+    height: 590px;
+    background: linear-gradient(to left, #00ffee, #2d489a);
+    border-radius: 4em;
+    margin-top: 1%;
+    margin-left: 30%;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(48, 189, 189) 0px 45px 45px;
+}
+
+table {
+    margin-top: 2%;
+    width: 520px;
+    height: 490px;
+    background: linear-gradient(to left, #af3a12, #b8a12e);
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: rgb(234, 75, 47) 0px 35px 35px;
+}
+
+.button {
+    background-color: rgb(34, 32, 17);
+    border: 0px;
+    border-radius: 1vh;
+    color: bisque;
+    width: 60px;
+    height: 50px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgb(94, 79, 79) 0px 20px 20px;
+}
+
+.screen {
+    width: 360px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 14px;
+    font-weight: bolder;
+    color: rgb(234, 75, 47);
+    box-shadow: rgb(210, 169, 169) 0px 10px 10px;
+}
+
+#screen {
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-top: 20px;
+}
+
+#cls {
+    height: 50px;
+    border-radius: 12px;
+    margin-top: 12px;
+    font-size: 24px;
+}
+
+#result,
+#cls,
+#plus {
+    background-color: red;
+    box-shadow: rgb(130, 37, 37) 0px 20px 20px;
+}
+
+#space {
+    width: 130px;
+}
+
+.button:active {
+    background-color: rgb(78, 59, 59);
+    box-shadow: rgb(110, 66, 66) 0px 20px 20px;
+}
+
+#backspace:active,
+#result:active,
+#cls:active,
+#plus:active {
+    background-color: rgb(183, 40, 40);
+    box-shadow: rgb(135, 30, 30) 0px 20px 20px;
+}
+
+#name {
+    margin-top: -30%;
+    margin-left: 1%;
+    font-size: 60px;
+    color: gold;
+    font-weight: bolder;
+    font-family: Broadway Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: rgb(27, 26, 26) 5px 15px 15px;
+}
+
+#last {
+    display: flex;
+    justify-content: center;
+}
+
+#owner,
+#created_by {
+    margin-top: 2.9%;
+}
+
+#created_by {
+    margin-left: .5em;
+    width: 120px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#owner {
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#backspace {
+    width: 170px;
+}
+
+#last-btn {
+    width: 170px;
+    margin-top: 7.5%;
+    margin-left: 45.5%;
+}
+
+#name:hover {
+    color: rgb(187, 38, 38);
+}

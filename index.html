@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friendship calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="calculator">
+        <table>
+            <tr>
+                <td colspan="5"> <input type="text" id="screen" class="screen" disabled />
+                </td>
+                <td><input type="button" value="CLS" id="cls" onclick="clearScreen()" class="button" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="a" onclick="display('a')" class="button first" />
+                </td>
+                <td><input type="button" value="b" onclick="display('b')" class="button" />
+                </td>
+                <td><input type="button" value="c" onclick="display('c')" class="button" />
+                </td>
+                <td><input type="button" value="d" onclick="display('d')" class="button" />
+                </td>
+                <td><input type="button" value="e" onclick="display('e')" class="button" />
+                </td>
+                <td> <input type="button" value="f" onclick="display('f')" class="button" />
+            </tr>
+            <tr>
+                <td><input type="button" value="g" onclick="display('g')" class="button" />
+                </td>
+                <td> <input type="button" value="h" onclick="display('h')" class="button" />
+                </td>
+                <td> <input type="button" value="i" onclick="display('i')" class="button" />
+                </td>
+                <td><input type="button" value="j" onclick="display('j')" class="button" />
+                </td>
+                <td><input type="button" value="k" onclick="display('k')" class="button" />
+                </td>
+                <td> <input type="button" value="l" onclick="display('l')" class="button" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="m" onclick="display('m')" class="button" />
+                </td>
+                <td><input type="button" value="n" onclick="display('n')" class="button" />
+                </td>
+                <td><input type="button" value="o" onclick="display('o')" class="button" />
+                </td>
+                <td><input type="button" value="p" onclick="display('p')" class="button" />
+                </td>
+                <td><input type="button" value="q" onclick="display('q')" class="button" />
+                </td>
+                <td> <input type="button" value="r" onclick="display('r')" class="button" />
+                </td>
+            </tr>
+            <tr>
+                <td><input type="button" value="s" onclick="display('s')" class="button" />
+                </td>
+                <td><input type="button" value="t" onclick="display('t')" class="button" />
+                </td>
+                <td><input type="button" value="u" onclick="display('u')" class="button" />
+                </td>
+                <td><input type="button" value="v" onclick="display('v')" class="button" />
+                </td>
+                <td><input type="button" value="w" onclick="display('w')" class="button" />
+                </td>
+                <td><input type="button" value="x" onclick="display('x')" class="button" />
+                </td>
+
+            </tr>
+            <tr>
+
+                <td><input type="button" value="y" onclick="display('y')" class="button" />
+                </td>
+                <td><input type="button" value="z" onclick="display('z')" class="button" />
+                </td>
+                <td colspan="2"><input type="button" id="space" value="space" onclick="display(' ')" class="button" />
+                </td>
+                <td><input type="button" id="plus" value="and" onclick="separate()" class="button" />
+                </td>
+                <td><input type="button" id="result" value="calc" onclick="result()" class="button" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="name">Love</br> Calculator</div>
+    <div id="last-btn"><input type="button" value="back-space" onclick="backspace()" class="button" id="backspace" />
+    </div>
+    <div id="last">
+        <input type="text" class="screen" id="owner" disabled />
+        <input type="button" value="Created by" id="created_by" onclick="createdBy()" class="button" />
+    </div>
+
+    <script src=" script.js"></script>
+</body>
+
+</html>
